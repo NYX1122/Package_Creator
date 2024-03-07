@@ -1,0 +1,28 @@
+{
+  "name": "package_creator",
+  "version": "1.0.0",
+  "description": "Tool to aid in the creation of new npm packages.",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "node appTester.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NYX1122/Package_Creator.git"
+  },
+  "author": "BoDee Angus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NYX1122/Package_Creator/issues"
+  },
+  "homepage": "https://github.com/NYX1122/Package_Creator#readme",
+  "dependencies": {
+    "github_manager": "file:../Github_Manager",
+    "json_saver": "file:../JSON_Saver",
+    "package_configurer": "file:../Package_Configurer",
+    "repository_cloner": "file:../Repository_Cloner",
+    "sibling_folder_reader": "file:../Sibling_Folder_Reader",
+    "terminal_asker": "file:../Terminal_Asker"
+  }
+}
