@@ -29,6 +29,8 @@ export default async function () {
 
       await repositoryCloner(html_url, packageName);
       await packageConfigurer(packageName, packageDesc, html_url);
+      console.log('Package_Creator has successfully created the package:');
+      console.log(packageName);
     }
   } catch (error) {
     console.error('Package_Creator encountered an error:');
